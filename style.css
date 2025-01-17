@@ -204,6 +204,7 @@ a:hover {
     text-decoration: none;
     width: 190px;
     height: 45px;
+    margin-bottom: 15px;
     background-color: #1954B3;
     border: 2px solid #1954B3;
     text-decoration: none;
@@ -217,10 +218,7 @@ a:hover {
 .appointment a :hover{
     color: black;
 }
-/* aboutus */
-#aboutus{
-    
-}
+
 .image{
     display: flex;
     flex-direction: row;
@@ -228,3 +226,27 @@ a:hover {
 /* .col-8{
     border: 5px solid red;
 } */
+ /* Frame 16 */
+.box6{
+    background: #F9FAFB;
+    align-items: center;
+    justify-content: center;
+    /* Neutral / Bordar */
+    border: 0.632812px solid #E5E7EB;
+    box-shadow: 0px 2.53125px 7.59375px rgba(59, 130, 246, 0.1);
+    border-radius: 15.1875px;
+    padding: 15.1875px;
+    margin-top: 20px;
+    padding: 15px;
+    /* gap: 1.19px; */
+    width: 264.94px;
+    height: 355.52px;
+}
+.box6 p{
+    color: #6B7280;
+}
+.servicecolumns{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+}
